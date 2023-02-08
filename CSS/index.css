@@ -1,0 +1,35 @@
+.inline-block {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:#BA0c2f;
+   
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 73%;
+    padding: 1%;
+}
+
+.heroImg{
+    height: 600px;
+    padding: 25px;
+    text-size-adjust: 20;
+}
+class ::content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+color: white;
+display: inline-flex;
+justify-content: space-between;
+background-color: #373738;
+}
