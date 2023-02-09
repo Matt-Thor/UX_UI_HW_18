@@ -27,6 +27,22 @@ class ::content{
     margin: 0 auto;
 }
 
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.mySkills{
+    display: center;
+    display: inline-block;
+    
+}
+
 footer {
 color: white;
 display: inline-flex;
