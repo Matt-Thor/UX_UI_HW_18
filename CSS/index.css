@@ -1,20 +1,20 @@
 .inline-block {
-    display: inline-flex;
-    justify-content: space-between;
-    background-color:#BA0c2f;
-   
+    display: flex;
+   /* justify-content: space-between;*/
+    
+    
 }
-.logo{
+/*.logo{
     width: 23%;
     padding: 1%;
     text-align: center;
-}
+}*/
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 73%;
-    padding: 1%;
+    display: right;
+    background-color:#BA0c2f;
+    
+    
 }
 
 .heroImg{
@@ -22,10 +22,11 @@
     padding: 25px;
     text-size-adjust: 20;
 }
-class ::content{
+/*class ::content{
     width: 500px;
     margin: 0 auto;
 }
+*/
 
 
 .flexContainer{
@@ -43,9 +44,131 @@ class ::content{
     
 }
 
+.myWorkHex{
+  display: block;
+ position: relative;
+height: 129px;
+width: 129px;
+}
+
 footer {
 color: white;
-display: inline-flex;
-justify-content: space-between;
+display: right;
+height: 50px;
+width: 99%;
 background-color: #373738;
+text-size-adjust: 25px;
 }
+
+.myWork{
+  display: grid;
+  grid-template-rows: 315px 315px 315px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "case1 case1info"
+  "case2 case2info"
+  "case3 case3info"
+  ;
+}
+
+.case1 {
+  grid-area: case1;
+}
+
+.case2 {
+  grid-area: case2;
+}
+
+.case3 {
+  grid-area: case3;
+}
+
+.case1info {
+  grid-area: case1info;
+}
+
+.case2info {
+  grid-area: case2info;
+}
+
+.case3info {
+  grid-area: case3info;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*failed attempt!*/
+/*#workGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 75% 25%;
+    grid-template-areas:
+    "caseStudy studyDescription"
+    "caseStudy csButton";
+  }
+
+  #caseStudy {
+    grid-area: caseStudy;
+    background-image: url("../images/furniture1.png");
+  }
+  
+  #studyDescription {
+    grid-area: sstudyDescription;
+    background-image: url("../images/furniture2.png");
+  }
+  
+  #csButton {
+    grid-area: CTA;
+    background-image: url("../images/woodbg.png");
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  #caseGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 600px ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    
+    "whiteBear whiteBearData"
+    "deptofEd deptEdData"
+    "goalAssist goalAssistData" 
+
+
+    "bookcases bedroom patio"
+    "couches couches patio"
+    "desks desks desks"
+    ;
+  }
+  */ 
+  
