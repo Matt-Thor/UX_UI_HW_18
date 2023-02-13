@@ -1,14 +1,16 @@
 .inline-block {
-    display: flex;
+    display: right;
+    font-size: 25px;
+
    /* justify-content: space-between;*/
     
     
 }
-/*.logo{
-    width: 23%;
-    padding: 1%;
+.logo{
+    width: 4%;
+    padding: 2%;
     text-align: center;
-}*/
+}
 
 .navigation {
     display: right;
@@ -21,6 +23,7 @@
     height: 600px;
     padding: 25px;
     text-size-adjust: 20;
+    text-align: center;
 }
 /*class ::content{
     width: 500px;
@@ -36,19 +39,41 @@
     margin: 15px;
     padding: 15px;
     text-align: center;
+    border-style: solid;
+    border-width: medium;
+
 }
 
-.mySkills{
+/*.mySkills{
     display: center;
-    display: inline-block;
-    
+    display: inline-block;   
+}*/
+
+.mySkillsHex{
+ 
+  /* display:flex;
+  flex-direction: column;
+  height: 130px;
+  width: 130px;
+  margin: 15px;
+  padding: 15px;
+  text-align:center;*/
+
+  display:flex;
+  flex-direction: column;
+  width: 99%;
+  margin: 50px;
+  padding: 50px;
+  text-align:center;
 }
 
 .myWorkHex{
-  display: block;
- position: relative;
-height: 129px;
-width: 129px;
+  display:flex;
+  flex-direction: column;
+  width: 99%;
+  margin: 50px;
+  padding: 50px;
+  text-align:center;
 }
 
 footer {
@@ -57,12 +82,13 @@ display: right;
 height: 50px;
 width: 99%;
 background-color: #373738;
-text-size-adjust: 25px;
+font-size: 20px;
 }
 
 .myWork{
+  text-align: center;
   display: grid;
-  grid-template-rows: 315px 315px 315px;
+  grid-template-rows: 350px 350px 350px;
   grid-template-columns: 1fr 2fr;
   grid-template-areas: 
   "case1 case1info"
@@ -123,52 +149,4 @@ text-size-adjust: 25px;
 
 
 
-/*failed attempt!*/
-/*#workGrid {
-    margin: 0px 5%;
-    display: grid;
-    min-height: 500px;
-    height: 70vh;
-    grid-template-rows: 75% 25%;
-    grid-template-columns: 75% 25%;
-    grid-template-areas:
-    "caseStudy studyDescription"
-    "caseStudy csButton";
-  }
 
-  #caseStudy {
-    grid-area: caseStudy;
-    background-image: url("../images/furniture1.png");
-  }
-  
-  #studyDescription {
-    grid-area: sstudyDescription;
-    background-image: url("../images/furniture2.png");
-  }
-  
-  #csButton {
-    grid-area: CTA;
-    background-image: url("../images/woodbg.png");
-    justify-content: space-around;
-    cursor: pointer;
-  }
-
-  #caseGrid {
-    margin: 0px 5%;
-    display: grid;
-    grid-template-rows: 300px 600px ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-    
-    "whiteBear whiteBearData"
-    "deptofEd deptEdData"
-    "goalAssist goalAssistData" 
-
-
-    "bookcases bedroom patio"
-    "couches couches patio"
-    "desks desks desks"
-    ;
-  }
-  */ 
-  
