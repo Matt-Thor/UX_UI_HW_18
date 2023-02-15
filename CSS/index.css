@@ -21,7 +21,8 @@
 
 .heroImg{
     height: 600px;
-    padding: 25px;
+    /*padding: 25px;*/
+    width:100%;
     text-size-adjust: 20;
     text-align: center;
 }
